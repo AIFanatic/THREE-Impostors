@@ -1,6 +1,6 @@
 # THREE-Impostors
 
-[Live demo](https://aifanatic.github.io/three-impostors/dist/index.html)
+[Live demo](https://aifanatic.github.io/THREE-Impostors/dist/index.html)
 
 TODO:
 - Better impostor blending.

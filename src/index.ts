@@ -1,13 +1,10 @@
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import Stats from "three/examples/jsm/libs/stats.module.js";
-import { AmbientLight, BufferGeometry, ClampToEdgeWrapping, Color, DirectionalLight, DoubleSide, DynamicDrawUsage, InstancedMesh, Matrix4, Mesh, MeshBasicMaterial, MeshPhongMaterial, NearestFilter, Object3D, PerspectiveCamera, PlaneGeometry, SRGBColorSpace, Scene, ShaderMaterial, SphereGeometry, TextureLoader, Vector2, Vector3, WebGLRenderer } from "three";
+import { AmbientLight, BufferGeometry, Color, DirectionalLight, DoubleSide, Mesh, MeshBasicMaterial, MeshPhongMaterial, NearestFilter, Object3D, PerspectiveCamera, PlaneGeometry, SRGBColorSpace, Scene, ShaderMaterial, SphereGeometry, TextureLoader, Vector2, Vector3, WebGLRenderer } from "three";
 
-import { mergeVertices, mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { Impostor } from "./Impostor";
 
-import {createNoise2D} from "simplex-noise";
 import { Dilator } from "./Dilator";
 
 

@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+backups
+node_modules
+research
+yarn.lock

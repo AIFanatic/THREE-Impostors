@@ -1,0 +1,17 @@
+{
+  "name": "THREE-Impostors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "esbuild src/index.ts --bundle --outfile=dist/three-impostors.js --target=es2022 --format=esm --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "dependencies": {
+    "@types/three": "^0.169.0",
+    "simplex-noise": "^4.0.3",
+    "three": "^0.169.0"
+  }
+}
